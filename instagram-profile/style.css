@@ -1,0 +1,67 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+     color: white;
+}
+
+body{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 100px;
+}
+
+.container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-items: center;
+     padding: 10px;
+     background-color: rgb(24, 20, 20, 0.9);
+     border-radius: 15px;
+     box-shadow: 0em 0.5em 1em 0.3em rgba(0,0,0,0.5);
+     transition: 0.5s;
+}
+
+.container:hover{
+     box-shadow: 0em 0.5em 1em 0.5em rgba(0,0,0,0.5);
+     transform: scale(1.05);
+}
+
+.container .profile{
+     display: flex;
+}
+
+.profile-pic-name img{
+     clip-path: circle();
+     width: 100px;
+     cursor: pointer;
+}
+
+.profile-pic-name h3{
+     margin-left: 20px;
+     cursor: pointer;
+}
+
+.profile .p-f-f{
+     display: flex;
+     text-align: center;
+     margin-top: 20px;
+}
+
+.profile .content{
+     margin-right: 10px;
+     font-size: 13px;
+     cursor: pointer;
+}
+
+.container button{
+     width: 100%;
+     margin: 40px 20px 20px 20px;
+     font-size: 13px;
+     padding: 5px;
+     background-color: rgb(24, 20, 20);
+     border: 1px solid rgb(189, 162, 162);
+     cursor: pointer;
+}

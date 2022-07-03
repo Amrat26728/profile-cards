@@ -1,0 +1,98 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 150px auto;
+}
+
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 20px;
+     border: 2px solid gray;
+     background-color: orange;
+     border-radius: 25px;
+     border: none;
+     box-shadow: 5px 5px 5px lightblue;
+}
+
+.container:hover{
+     box-shadow: 10px 10px 5px lightblue;
+     transition: 0.5s;
+}
+
+.profile-content{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.profile-pic img{
+     clip-path: circle();
+     height: 100px;
+}
+
+.social-icons{
+     margin: 10px;
+}
+
+.social-icons i{
+     margin: 5px 10px;
+     font-size: 20px;
+     cursor: pointer;
+}
+
+.posts-followers-following{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 12px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.posts{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 0px 10px;
+}
+
+.followers{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 0px 10px;
+}
+
+.following{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 0px 10px;
+}
+
+.container button{
+     width: 100%;
+     margin-top: 25px;
+     padding: 10px;
+     border-radius: 20px;
+     border: none;
+     background-color: rgb(120, 120, 248);
+     color: white;
+     cursor: pointer;
+}
+
+.container button:hover{
+     background-color: rgb(70, 70, 250);
+}

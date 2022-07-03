@@ -1,0 +1,68 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 400px;
+     overflow: hidden;
+     background-color: orange;
+     margin: 30px;
+     border-radius: 15px;
+     transition: 0.5s;
+     box-shadow: 0.3em 0.3em 0em 0em rgba(0,0,0,0.3);
+}
+
+.container:hover{
+     transform: scale(1.03);
+     box-shadow: 0.6em 0.6em 0em 0em rgba(0,0,0,0.3);
+}
+
+.container img{
+     display: flex;
+     width: 100%;
+     max-height: 280px;
+     border-radius: 15px 15px 0px 0px;
+}
+
+.profile img{
+     clip-path: circle();
+     max-width: 200px;
+     max-height: 200px;
+     margin-top: -40%;
+     box-shadow: 5px 5px 5px rgb(71, 60, 60);
+}
+
+.name{
+     font-size: 25px;
+}
+
+.container button{
+     width: 50%;
+     padding: 10px;
+     margin: 10px;
+     border-radius: 15px;
+     border: none;
+     background-color: rgb(100, 100, 231);
+     color: white;
+     font-size: 15px;
+     cursor: pointer;
+     transition: 0.5s;
+     outline: none;
+}
+
+.container button:hover{
+     background-color: rgb(57, 57, 231);
+     width: 90%;
+}
